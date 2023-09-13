@@ -1,0 +1,4 @@
+enum NetworkStatus {
+  available,
+  unavailable,
+}

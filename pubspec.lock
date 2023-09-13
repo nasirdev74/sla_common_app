@@ -129,14 +129,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.8"
-  event_bus:
-    dependency: transitive
-    description:
-      name: event_bus
-      sha256: "44baa799834f4c803921873e7446a2add0f3efa45e101a054b1f0ab9b95f8edc"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.0"
   expandable:
     dependency: transitive
     description:
@@ -169,11 +161,27 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.0"
+  fixnum:
+    dependency: transitive
+    description:
+      name: fixnum
+      sha256: "25517a4deb0c03aa0f32fd12db525856438902d9c16536311e76cdc57b31d7d1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_blue_plus:
+    dependency: transitive
+    description:
+      name: flutter_blue_plus
+      sha256: "4e49b45d2f1ec9855826ed0af7d2b78b7d2a3e5743b3ae72aec59eb3790356d9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
   flutter_blurhash:
     dependency: transitive
     description:
@@ -198,14 +206,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
-  flutter_riverpod:
-    dependency: transitive
-    description:
-      name: flutter_riverpod
-      sha256: "1bd39b04f1bcd217a969589777ca6bd642d116e3e5de65c3e6a8e8bdd8b178ec"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.0"
   flutter_rounded_date_picker:
     dependency: transitive
     description:
@@ -256,38 +256,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  geocoding:
-    dependency: transitive
-    description:
-      name: geocoding
-      sha256: b34c0501bbbaf3190b85bef3078b27cf66c28a8915c6d3af50d67f356aa7da31
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
-  geocoding_android:
-    dependency: transitive
-    description:
-      name: geocoding_android
-      sha256: "609db1d71bc364dd9d0616f72a41c01e0c74f3a3807efb85e0d5a67e57baf50f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.2"
-  geocoding_ios:
-    dependency: transitive
-    description:
-      name: geocoding_ios
-      sha256: c85495ce8fb34e4fbd2dd8fc5f79263d622d9f88c4af948c965daf6b27a7f3a1
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
-  geocoding_platform_interface:
-    dependency: transitive
-    description:
-      name: geocoding_platform_interface
-      sha256: "8848605d307d844d89937cdb4b8ad7dfa880552078f310fa24d8a460f6dddab4"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.1"
   go_router:
     dependency: transitive
     description:
@@ -304,14 +272,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.5"
-  hive:
-    dependency: transitive
-    description:
-      name: hive
-      sha256: "8dcf6db979d7933da8217edcec84e9df1bdb4e4edc7fc77dbd5aa74356d6d941"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.3"
   http:
     dependency: transitive
     description:
@@ -360,30 +320,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.0"
-  location:
-    dependency: transitive
-    description:
-      name: location
-      sha256: "9051959f6f2ccadd887b28b66e9cbbcc25b6838e37cf9e894c421ccc0ebf80b5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.4.0"
-  location_platform_interface:
-    dependency: transitive
-    description:
-      name: location_platform_interface
-      sha256: "62eeaf1658e92e4459b727f55a3c328eccbac8ba043fa6d262ac5286ad48384c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.0"
-  location_web:
-    dependency: transitive
-    description:
-      name: location_web
-      sha256: "6c08c408a040534c0269c4ff9fe17eebb5a36dea16512fbaf116b9c8bc21545b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.1"
   logging:
     dependency: transitive
     description:
@@ -424,22 +360,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
-  modal_bottom_sheet:
-    dependency: transitive
-    description:
-      name: modal_bottom_sheet
-      sha256: "3bba63c62d35c931bce7f8ae23a47f9a05836d8cb3c11122ada64e0b2f3d718f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0-pre"
-  mqtt_client:
-    dependency: transitive
-    description:
-      name: mqtt_client
-      sha256: ba10ec490ded55dc4e77bbc992529d823fb15d0d5ec68c2895f960312060c541
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.8.1"
   nm:
     dependency: transitive
     description:
@@ -576,6 +496,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.4.0"
+  pinput:
+    dependency: transitive
+    description:
+      name: pinput
+      sha256: "543da5bfdefd9e06914a12100f8c9156f84cef3efc14bca507c49e966c5b813b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.0"
   platform:
     dependency: transitive
     description:
@@ -600,14 +528,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.7.3"
-  riverpod:
+  protobuf:
     dependency: transitive
     description:
-      name: riverpod
-      sha256: a600120d6f213a9922860eea1abc32597436edd5b2c4e73b91410f8c2af67d22
+      name: protobuf
+      sha256: "01dd9bd0fa02548bf2ceee13545d4a0ec6046459d847b6b061d8a27237108a08"
       url: "https://pub.dev"
     source: hosted
-    version: "2.4.0"
+    version: "2.1.0"
   rxdart:
     dependency: transitive
     description:
@@ -628,6 +556,15 @@ packages:
       relative: true
     source: path
     version: "1.0.0"
+  sla_logger:
+    dependency: transitive
+    description:
+      path: "package/sla_logger"
+      ref: HEAD
+      resolved-ref: c0b6f14dd4c6ebb5a488032d9b53f7cd7c23950f
+      url: "https://github.com/nasirdev74/sla_logger_app"
+    source: git
+    version: "1.0.0"
   slidable_button:
     dependency: transitive
     description:
@@ -636,6 +573,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0+1"
+  smart_auth:
+    dependency: transitive
+    description:
+      name: smart_auth
+      sha256: a25229b38c02f733d0a4e98d941b42bed91a976cb589e934895e60ccfa674cf6
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   source_span:
     dependency: transitive
     description:
@@ -668,14 +613,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
-  state_notifier:
-    dependency: transitive
-    description:
-      name: state_notifier
-      sha256: b8677376aa54f2d7c58280d5a007f9e8774f1968d1fb1c096adcb4792fba29bb
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
   stream_channel:
     dependency: transitive
     description:
@@ -692,22 +629,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
-  syncfusion_flutter_core:
-    dependency: transitive
-    description:
-      name: syncfusion_flutter_core
-      sha256: "8db8f55c77f56968681447d3837c10f27a9e861e238a898fda116c7531def979"
-      url: "https://pub.dev"
-    source: hosted
-    version: "21.2.10"
-  syncfusion_flutter_gauges:
-    dependency: transitive
-    description:
-      name: syncfusion_flutter_gauges
-      sha256: "8f847784b2a8166e0186d42643441b9525a4929648cb6e268e6ecb9786204bcc"
-      url: "https://pub.dev"
-    source: hosted
-    version: "21.2.3"
   synchronized:
     dependency: transitive
     description:
@@ -740,6 +661,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.2"
+  universal_platform:
+    dependency: transitive
+    description:
+      name: universal_platform
+      sha256: d315be0f6641898b280ffa34e2ddb14f3d12b1a37882557869646e0cc363d0cc
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0+1"
   uuid:
     dependency: transitive
     description:

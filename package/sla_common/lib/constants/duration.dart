@@ -1,0 +1,13 @@
+const milli100 = Duration(milliseconds: 100);
+const milli200 = Duration(milliseconds: 200);
+const milli300 = Duration(milliseconds: 300);
+const milli500 = Duration(milliseconds: 500);
+const milli800 = Duration(milliseconds: 800);
+const milli900 = Duration(milliseconds: 900);
+const sec1 = Duration(seconds: 1);
+const sec2 = Duration(seconds: 2);
+const sec3 = Duration(seconds: 3);
+const sec4 = Duration(seconds: 3);
+const sec5 = Duration(seconds: 3);
+const sec6 = Duration(seconds: 3);
+const sec7 = Duration(seconds: 3);
