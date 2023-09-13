@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:sla_common/sla_common.dart';
 import 'package:sla_logger/sla_logger.dart';
-import 'package:sla_common/settings/settings.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 extension NullableContextExt on BuildContext? {
@@ -103,6 +103,16 @@ extension ContextExt on BuildContext {
   MediaQueryData get mediaQuery => MediaQuery.of(this);
 
   double get topPadding => mediaQuery.viewPadding.top + mediaQuery.viewInsets.top;
+
+  double get arrowTitleAppBarHeight => kIsWeb ? 0 : ArrowTitleAppBar.HEIGHT.w;
+
+  double get arrowTitleAppBarMinHeight => kIsWeb ? 0 : ArrowTitleAppBar.MIN_HEIGHT.w;
+
+  double get bodyHeightWithoutArrowTitleAppBar =>
+      height - (topPadding + (kIsWeb ? 0 : ArrowTitleAppBar.HEIGHT.w));
+
+  double get bodyHeightWithoutArrowTitleAppBarMinHeight =>
+      height - (topPadding + (kIsWeb ? 0 : ArrowTitleAppBar.MIN_HEIGHT.w));
 
   double get keyboardHeight => mediaQuery.viewInsets.bottom;
 
