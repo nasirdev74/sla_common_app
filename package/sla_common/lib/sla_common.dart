@@ -8,3 +8,4 @@ export 'enums/enums.dart';
 export 'models/models.dart';
 export 'settings/settings.dart';
 export 'theme/theme.dart';
+export 'widgets/widgets.dart';
