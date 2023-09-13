@@ -10,7 +10,8 @@ class SLACommonApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var sd = Calculator();
+    final calculator = Calculator();
+    calculator.addOne(2);
     return const MaterialApp(
       showSemanticsDebugger: false,
       home: Scaffold(
