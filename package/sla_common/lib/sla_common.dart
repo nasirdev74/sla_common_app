@@ -11,3 +11,5 @@ export 'settings/settings.dart';
 export 'theme/theme.dart';
 export 'widgets/widgets.dart';
 export 'text_widgets/text_widgets.dart';
+export 'modules/providers.dart';
+export 'modules/views.dart';
