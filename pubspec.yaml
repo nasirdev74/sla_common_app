@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   sla_common:
-    path: packages/sla_common
+    path: package/sla_common
 
   cupertino_icons: ^1.0.2
 
