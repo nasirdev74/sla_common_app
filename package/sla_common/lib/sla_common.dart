@@ -10,3 +10,4 @@ export 'models/models.dart';
 export 'settings/settings.dart';
 export 'theme/theme.dart';
 export 'widgets/widgets.dart';
+export 'text_widgets/text_widgets.dart';
