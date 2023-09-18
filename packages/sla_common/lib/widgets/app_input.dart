@@ -1,9 +1,6 @@
-import 'package:flutter_svg/svg.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:sla_common/sla_common.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppInput extends StatefulWidget {
   const AppInput({
@@ -123,7 +120,6 @@ class _AppInputState extends State<AppInput> with TickerProviderStateMixin {
                 textCapitalization: widget.textCapitalization,
                 textAlignVertical: widget.textAlignVertical,
                 textAlign: TextAlign.start,
-                textDirection: TextDirection.ltr,
                 decoration: InputDecoration(
                   border: inputBorder,
                   enabledBorder: inputBorder,

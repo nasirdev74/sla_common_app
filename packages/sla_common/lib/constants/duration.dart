@@ -11,3 +11,6 @@ const sec4 = Duration(seconds: 3);
 const sec5 = Duration(seconds: 3);
 const sec6 = Duration(seconds: 3);
 const sec7 = Duration(seconds: 3);
+const sec8 = Duration(seconds: 3);
+const sec9 = Duration(seconds: 3);
+const sec10 = Duration(seconds: 3);
