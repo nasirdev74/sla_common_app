@@ -1,9 +1,5 @@
-import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:sla_common/sla_common.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppCustomDialog extends StatelessWidget {
   const AppCustomDialog({
@@ -49,6 +45,7 @@ class AppCustomDialog extends StatelessWidget {
                     SizedBox(height: 3.w),
                     Lottie.asset(
                       "assets/animations/$animationPath",
+                      package: slaCommon,
                       height: 145.w,
                     ),
                     SizedBox(height: 3.w),
