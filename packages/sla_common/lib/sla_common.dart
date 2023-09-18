@@ -21,5 +21,6 @@ export 'package:flutter_svg/flutter_svg.dart';
 export 'package:flutter_bloc/flutter_bloc.dart';
 export 'package:google_fonts/google_fonts.dart';
 export 'package:flutter_vibrate/flutter_vibrate.dart';
+export 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 export 'package:cached_network_image/cached_network_image.dart';
