@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sla_common/sla_common.dart';
+import 'package:sla_common_app/common_widgets.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,19 +21,7 @@ class SLACommonApp extends StatelessWidget {
         return MaterialApp(
           showSemanticsDebugger: false,
           debugShowCheckedModeBanner: false,
-          home: Scaffold(
-            backgroundColor: AppColor.primary,
-            body: Center(
-              child: Text(
-                "SLA Common",
-                style: GoogleFonts.roboto(
-                  fontSize: 30.w,
-                  color: AppColor.FFFFFF,
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
-            ),
-          ),
+          home: CommonWidgetsView(),
         );
       },
     );
