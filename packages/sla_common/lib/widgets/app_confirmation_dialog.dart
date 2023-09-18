@@ -47,6 +47,7 @@ class AppConfirmationDialog extends StatelessWidget {
                           child: const Image(
                             image: AssetImage(
                               'assets/icons/app_icon.png',
+                              package: slaCommon,
                             ),
                             height: 45,
                             width: 45,

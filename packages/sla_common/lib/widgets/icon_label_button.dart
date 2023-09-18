@@ -47,6 +47,7 @@ class IconLabelButton extends StatelessWidget {
                     iconPath,
                     fit: BoxFit.fitWidth,
                     width: iconSize.w,
+                    package: slaCommon,
                   ),
                 ),
                 SizedBox(width: 8.w),

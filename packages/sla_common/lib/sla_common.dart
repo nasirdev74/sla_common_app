@@ -24,3 +24,5 @@ export 'package:flutter_vibrate/flutter_vibrate.dart';
 export 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 export 'package:cached_network_image/cached_network_image.dart';
+
+const slaCommon = "sla_common";

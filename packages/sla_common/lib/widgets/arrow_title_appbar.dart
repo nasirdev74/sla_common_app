@@ -72,6 +72,7 @@ class ArrowTitleAppBar extends StatelessWidget {
                       "assets/icons/arrow_left.svg",
                       fit: BoxFit.fitWidth,
                       width: 30.w,
+                      package: slaCommon,
                     ),
                   ),
                 ),

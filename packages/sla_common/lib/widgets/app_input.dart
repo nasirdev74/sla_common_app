@@ -162,6 +162,7 @@ class _AppInputState extends State<AppInput> with TickerProviderStateMixin {
                                               kIcons.eyeClosed,
                                               fit: BoxFit.fitWidth,
                                               width: widget.suffixIconWidth.w,
+                                              package: slaCommon,
                                             ),
                                           )
                                         ]
@@ -175,6 +176,7 @@ class _AppInputState extends State<AppInput> with TickerProviderStateMixin {
                                               kIcons.eyeOpen,
                                               fit: BoxFit.fitWidth,
                                               width: widget.suffixIconWidth.w,
+                                              package: slaCommon,
                                             ),
                                           )
                                         ]
@@ -191,6 +193,7 @@ class _AppInputState extends State<AppInput> with TickerProviderStateMixin {
                                                   widget.suffixIconPath!,
                                                   fit: BoxFit.fitWidth,
                                                   width: widget.suffixIconWidth.w,
+                                                  package: slaCommon,
                                                 ),
                                               )
                                             ]
@@ -216,6 +219,7 @@ class _AppInputState extends State<AppInput> with TickerProviderStateMixin {
                                   widget.prefixIconPath!,
                                   fit: BoxFit.fitWidth,
                                   width: widget.prefixIconWidth.w,
+                                  package: slaCommon,
                                 ),
                                 SizedBox(width: 12.31.w),
                               ],
@@ -230,6 +234,7 @@ class _AppInputState extends State<AppInput> with TickerProviderStateMixin {
                                   widget.prefixIconPath!,
                                   fit: BoxFit.fitWidth,
                                   width: widget.prefixIconWidth.w,
+                                  package: slaCommon,
                                 ),
                                 SizedBox(width: 12.31.w),
                               ],

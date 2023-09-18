@@ -54,6 +54,7 @@ class DefaultAppBar extends StatelessWidget {
                           padding: EdgeInsets.only(left: 15.w, right: 20.w),
                           child: SvgPicture.asset(
                             "assets/icons/arrow_left.svg",
+                            package: slaCommon,
                           ),
                         ),
                       ),
