@@ -53,6 +53,11 @@ flutter:
 
   assets:
     - assets/animations/
+    - assets/animations/congratulation.json
+    - assets/animations/email.json
+    - assets/animations/error.json
+    - assets/animations/loading.json
+    - assets/animations/no_internet.json
     - assets/icons/
     - assets/icons/active_device.svg
     - assets/icons/add_appliance_icon.svg
