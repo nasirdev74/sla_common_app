@@ -31,7 +31,7 @@ class NoInternetView extends StatelessWidget {
                     children: [
                       Lottie.asset(
                         "assets/animations/no_internet.json",
-                        package: "sla_common",
+                        package: slaCommon,
                         height: 350.w,
                       ),
                       Text(
